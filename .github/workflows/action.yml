@@ -1,8 +1,6 @@
 name: Actions Worflow
 
 on:
-  repository_dispatch :
-  types : [build]
   push:
     branches:
       - master
